@@ -10,12 +10,25 @@ var config = {
   },
   module: {
       loaders: [
-        {
+      {
           test: /\.js?$/,
           exclude: /(node_modules|bower_components)/,
           loaders: [
             'babel-loader?presets[]=react,presets[]=es2015,presets[]=stage-2' //babel is what transpiles our jsx code into javascript
           ]
+        },
+        {
+          test: /\.(png|jpg|gif)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {}  
+            }
+          ]
+        },
+        {
+          test: /\.css$/,
+          loader: 'style-loader!css-loader'
         }
       ]
     }
