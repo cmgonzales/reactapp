@@ -27,7 +27,6 @@ class Self extends React.Component {
          <div>   
             <header><h1>{this.state.title}!</h1></header>  
             <main>     
-            
             <img src={require('./one.jpg')} />
             <h3>What is a STATE?</h3>  <p> <br/> an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive</p>
             <h3>What is Props </h3> <p> <br/>Most components can be customized when they are created, with different parameters. These creation parameters are called props</p>        
@@ -35,7 +34,7 @@ class Self extends React.Component {
             <br/>
             <button onClick= {this.buttonClicked}   >click me</button>
             </main>
-            <footer>Iam a footer</footer>
+            <footer><a  href='https://cmgonzales.github.io/reactapp/'>GitHub Link</a></footer>
             </div>
             
             
