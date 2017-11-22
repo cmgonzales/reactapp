@@ -22,3 +22,7 @@ footer{
 a{
     font-size: 30px;
 }
+.button{
+    border: none;
+    color: blue;
+}

@@ -18,6 +18,7 @@ var config = {
           ]
         },
         {
+        //adding jpg
           test: /\.(png|jpg|gif)$/,
           use: [
             {
@@ -27,6 +28,7 @@ var config = {
           ]
         },
         {
+          //adding CSS loader 
           test: /\.css$/,
           loader: 'style-loader!css-loader'
         }
