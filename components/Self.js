@@ -30,7 +30,8 @@ this.state={title: 'My React Page'};
             <h3>What is Props </h3> <p> <br/>Most components can be customized when they are created, with different parameters. These creation parameters are called props</p>        
             <h3>What is ReactDOM</h3><br/><p> serves as the entry point of the DOM-related rendering paths. It is intended to be paired with the isomorphic React, which will be shipped as react to npm.</p>
             <br/>
-            <button style={{backgroundColor: bgColor}} onClick= {this.changeColor.bind(this)} className="button"  >click me</button>
+            <h3>what is React why is it importat</h3>
+            <buttnpmon style={{backgroundColor: bgColor}} onClick= {this.changeColor.bind(this)} className="button"  >click me</button>
             </main>
             <footer><a  href='https://cmgonzales.github.io/reactapp/'>GitHub Link</a></footer>
             </div>
