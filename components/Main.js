@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Self from './Self.js';
+import Body from './body.js'
 
 class Main extends React.Component {
 
@@ -8,6 +9,7 @@ class Main extends React.Component {
       return (
         <div>
             <Self/>
+            <Body/>
          </div>
       );
    }
