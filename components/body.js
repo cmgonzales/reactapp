@@ -3,8 +3,8 @@ class Main extends React.Component {
     render() {
        return (
          <div>
-             <Self/>
-             <Body/>
+            <h1>test</h1>
+             
           </div>
        );
     }
