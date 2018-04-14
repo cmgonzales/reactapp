@@ -4,7 +4,7 @@ class Main extends React.Component {
        return (
          <div>
             <h1>test</h1>
-            <h1>practice react</h1>
+            <h1>testone</h1>
              
           </div>
        );
