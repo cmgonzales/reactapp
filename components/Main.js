@@ -1,15 +1,16 @@
 import React from 'react';
 
 import Self from './Self.js';
-import Body from './body.js'
+import Nav from './nav.jsx';
 
 class Main extends React.Component {
 
    render() {
       return (
         <div>
+        <Nav/>
             <Self/>
-            <Body/>
+       
          </div>
       );
    }

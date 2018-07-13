@@ -12,7 +12,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
-export default class Example extends React.Component {
+export default class nav  extends React.Component {
   constructor(props) {
     super(props);
 
@@ -46,14 +46,14 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                    About
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                    Contact
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    Contact
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
