@@ -10,6 +10,10 @@ class Main extends React.Component {
         <div>
         <Nav/>
             <Self/>
+            export default class nav  extends React.Component {
+              constructor(props) {
+                super(props);
+            
        
          </div>
       );
